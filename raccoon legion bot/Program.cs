@@ -26,7 +26,7 @@ namespace raccoonLegionBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "MTA3Mjk1NjcyNTM4MjA4Njc1Ng.GLB70t.Fs5h39k9v-q1VttiHa8V0rWQ_taSWF9QVcFwXo";
+            string token = "";
 
             _client.Log += _client_Log;
 
